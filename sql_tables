@@ -14,7 +14,6 @@ CREATE TABLE customer(
 CREATE TABLE transactions(
  transaction_id INTEGER,
  transaction_customer_id NTEGER REFERENCES customer(customer_id) NOT NULL,
- customer_description VARCHAR (200) NULL,
  transaction_item VARCHAR(200) NOT NULL,
  transaction_date TIMESTAMP NOT NULL,
  transaction_created_date CURRENT_TIMESTAMP NOT NULL,
