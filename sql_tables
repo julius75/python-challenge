@@ -1,0 +1,24 @@
+-- table -1
+
+CREATE TABLE customer(
+ customer_id INTEGER NOT NULL,
+ customer_name VARCHAR (200) UNIQUE NOT NULL,
+ customer_description VARCHAR (200) NULL,
+ customer_updated_date TIMESTAMPTZ NOT NULL,
+ PRIMARY KEY(customer_id)
+
+);
+
+-- table two
+
+CREATE TABLE transactions(
+ transaction_id INTEGER,
+ transaction_customer_id NTEGER REFERENCES customer(customer_id) NOT NULL,
+ customer_description VARCHAR (200) NULL,
+ transaction_item VARCHAR(200) NOT NULL,
+ transaction_date TIMESTAMP NOT NULL,
+ transaction_created_date CURRENT_TIMESTAMP NOT NULL,
+  transaction_updated_date TIMESTAMP NOT NULL,
+ PRIMARY KEY (transaction_id,transaction_customer_id)
+
+);

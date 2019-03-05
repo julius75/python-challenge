@@ -1,0 +1,23 @@
+[
+    {
+        "sales_id": "1",
+        " sale_date": " 1/1/2019",
+        " sale_customer_name": " Donald Duck",
+        " sale_customer_email": " dd@email.com",
+        "sale_item": " shoe"
+    },
+    {
+        "sales_id": "2",
+        " sale_date": " 1/2/2019",
+        " sale_customer_name": " Mickey Mouse",
+        " sale_customer_email": " mm@email.com",
+        "sale_item": " shirt"
+    },
+    {
+        "sales_id": "3",
+        " sale_date": " 1/2/2018",
+        " sale_customer_name": " Yogi Bear",
+        " sale_customer_email": " yb@email.com",
+        "sale_item": " shirt"
+    }
+][{"sales_id": "1", " sale_date": " 1/1/2019", " sale_customer_name": " Donald Duck", " sale_customer_email": " dd@email.com", "sale_item": " shoe"}, {"sales_id": "2", " sale_date": " 1/2/2019", " sale_customer_name": " Mickey Mouse", " sale_customer_email": " mm@email.com", "sale_item": " shirt"}, {"sales_id": "3", " sale_date": " 1/2/2018", " sale_customer_name": " Yogi Bear", " sale_customer_email": " yb@email.com", "sale_item": " shirt"}]

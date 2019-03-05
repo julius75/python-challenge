@@ -1,0 +1,4 @@
+sales_id, sale_date, sale_customer_name, sale_customer_email,sale_item
+1, 1/1/2019, Donald Duck, dd@email.com, shoe
+2, 1/2/2019, Mickey Mouse, mm@email.com, shirt
+3, 1/2/2018, Yogi Bear, yb@email.com, shirt
